@@ -1,11 +1,25 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
+/* Nav section */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(225, 115, 115);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  font-size: 0.9rem;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url('../img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -32,8 +46,32 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
+}
+@media (min-width: 768px) {
+  .navbar-brand img {
+    width: 100%;
+  }
+}
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+  footer img {
+    width: 20%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    width: 60%;
+  }
+  .navbar-brand img {
+    width: 15%;
+  }
 }
