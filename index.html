@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/favicon/barbsmok-favicon-256.png"
+    />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -58,13 +64,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de mi</a>
+              <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -154,7 +160,7 @@
 
     <section
       id="Mis-trabajos"
-      class="text-center my-5 py-3 px-3 py-md-5 bg-dark"
+      class="text-center mt-5 py-3 px-3 py-md-5 bg-dark"
     >
       <div class="container my-5">
         <h2 class="display-4 text-center text-light mb-5 mb-lg-5">
@@ -168,7 +174,7 @@
                 style="background-image: url(assets/img/card-1.jpg)"
               ></div>
               <div class="card-body py-5 px-3">
-                <h5 class="card-title fw-bold">Samadhi</h5>
+                <h5 class="card-title">Samadhi</h5>
                 <p class="card-text">Brand Design Web Design RRSS Design</p>
                 <button type="button" class="btn btn-outline-info">
                   Ver más
@@ -183,7 +189,7 @@
                 style="background-image: url(assets/img/card-2.jpg)"
               ></div>
               <div class="card-body py-5 px-3">
-                <h5 class="card-title fw-bold">EN Learning School</h5>
+                <h5 class="card-title">EN Learning School</h5>
                 <p class="card-text">Brand Design Web Design RRSS Design</p>
                 <button
                   type="button"
@@ -201,7 +207,7 @@
                 style="background-image: url(assets/img/card-3.jpg)"
               ></div>
               <div class="card-body py-5 px-3">
-                <h5 class="card-title fw-bold">BioSmile</h5>
+                <h5 class="card-title">BioSmile</h5>
                 <p class="card-text">Brand Design RRSS Design</p>
                 <button type="button" class="btn btn-outline-info">
                   Ver más
@@ -213,39 +219,43 @@
       </div>
     </section>
 
-    <section id="Contacto" class="container my-5">
-      <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+    <section id="Contacto" class="text-center py-5 px-3 py-md-5">
+      <div class="container">
+        <h2 class="display-4 text-center my-md-4">Hablemos</h2>
 
-      <p class="text-center my-4 d-none d-md-block">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-        sapiente, autem delectus totam expedita animi corporis dolorem qui
-        magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate
-        beatae tempora quaerat?
-      </p>
+        <p class="text-center mb-4 mt-2 d-none d-md-block col-lg-10 mx-auto">
+          Actualmente mi agenda esta abierta para explorar nuevas oportunidades
+          y proyectos modo freelance. Mi bandeja de entrada está disponible para
+          recibir propuestas interesantes y estaré encantada de considerar
+          cualquier proyecto emocionante que puedas tener en mente. Si tienes
+          alguna consulta o simplemente quieres saludar, no dudes en ponerte en
+          contacto.
+        </p>
 
-      <form>
-        <div class="form-group mb-4">
-          <label class="mb-2">Nombre</label>
-          <input class="form-control" placeholder="Nombre" />
-        </div>
+        <form class="col-12 col-lg-10 mx-auto">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input class="form-control" placeholder="Nombre" />
+          </div>
 
-        <div class="form-group mb-4">
-          <label class="mb-2">Correo electrónico</label>
-          <input class="form-control" placeholder="Correo electrónico" />
-        </div>
+          <div class="form-group">
+            <label>Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+          </div>
 
-        <div class="form-group">
-          <label class="mb-2">Mensaje</label>
-          <textarea
-            class="form-control"
-            placeholder="Escribe aquí tu mensaje"
-          ></textarea>
-        </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea
+              class="form-control"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>
+          </div>
 
-        <div class="my-3 text-end">
-          <button class="btn btn-info text-light">Enviar</button>
-        </div>
-      </form>
+          <div class="mt-4 text-center">
+            <button class="btn btn-info text-light">Enviar</button>
+          </div>
+        </form>
+      </div>
     </section>
 
     <footer class="bg-dark text-center text-light p-4">
